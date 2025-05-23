@@ -1,8 +1,8 @@
 
-Seplos3MQTT
+JKBMS MQTT
 =============
 
-Python script to connect a battery pack using BMS Seplos Version 3 to MQTT
+Python script to connect a battery pack using BMS JK-BMS to MQTT
 
 Connect a USB to RS485 to any RS485 free port in your Seplos Pack.
 MQTT also provides Home Assistant auto discovery
@@ -14,7 +14,7 @@ Quick start
 Adapt the variables in the docker-compose.yaml. Then build the image and start with docker-compose:
 
 ```text
-sudo docker build -t seplos3mqtt .
+sudo docker build -t jkbms_mqtt .
 sudo docker-compose up -d
 ```
 
@@ -24,16 +24,24 @@ Documentation
 
 ```text
 Usage:  
-  python seplos3mqtt.py 
+  python jkbms.py 
 
 INI file:  
-[seplos3mqtt]
-serial = serial port
+[jkbms]
 mqtt_server = mqtt server address
 mqtt_port = mqtt server port
 mqtt_user = mqtt username
 mqtt_pass = mqtt password
-mqtt_prefix = mqtt prefix
+mqtt_topic = topic to publis
+
+modbus_ip = ip from modbus to wifi/ethernet adapter
+modbus_port = 502
+modbus_unit = (Id of battery)
+
+query_seconds = (every request in seconds)
+
+homeassistant_mqtt_topic = homeassistant
+debug_values = false (debug values)
 ```
 
 How-to video - In Spanish
