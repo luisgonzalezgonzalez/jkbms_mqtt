@@ -14,6 +14,8 @@ Quick start
 Adapt the variables in the docker-compose.yaml. Then build the image and start with docker-compose:
 
 ```text
+git clone https://github.com/luisgonzalezgonzalez/jkbms_mqtt.git
+cd jkbms_mqtt
 sudo docker build -t jkbms_mqtt .
 sudo docker-compose up -d
 ```
