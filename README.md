@@ -4,7 +4,7 @@ JKBMS MQTT
 
 Python script to connect a battery pack using BMS JK-BMS to MQTT
 
-Connect a USB to RS485 to any RS485 free port in your Seplos Pack.
+Connect a USB to RS485 to any RS485 free port in your JKBMS.
 MQTT also provides Home Assistant auto discovery
 
 
