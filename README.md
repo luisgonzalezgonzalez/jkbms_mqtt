@@ -11,11 +11,15 @@ MQTT also provides Home Assistant auto discovery
 Quick start
 -------------
 
-Adapt the variables in the docker-compose.yaml. Then build the image and start with docker-compose:
-
+Clone the repository on your PC
 ```text
 git clone https://github.com/luisgonzalezgonzalez/jkbms_mqtt.git
 cd jkbms_mqtt
+```
+
+Adapt the variables in the docker-compose.yaml. Then build the image and start with docker-compose:
+
+```text
 sudo docker build -t jkbms_mqtt .
 sudo docker-compose up -d
 ```
