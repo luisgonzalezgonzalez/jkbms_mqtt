@@ -20,10 +20,12 @@ cd jkbms_mqtt
 Adapt the variables in the docker-compose.yaml. Then build the image and start with docker-compose:
 
 ```text
-sudo docker build -t jkbms_mqtt .
+sudo docker build -t jkbms-mqtt .
 sudo docker-compose up -d
 ```
 
+
+Use dockerhub integrae/jkbms-mqtt:latest
 
 Documentation
 -------------
