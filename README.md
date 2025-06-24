@@ -25,7 +25,7 @@ sudo docker-compose up -d
 ```
 
 
-Use dockerhub integrae/jkbms-mqtt:latest
+Use dockerhub image integrae/jkbms-mqtt:latest
 
 Documentation
 -------------
