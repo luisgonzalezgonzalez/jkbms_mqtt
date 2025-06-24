@@ -60,7 +60,7 @@ How-to video - In Spanish
 Pinout and Wiring
 -----------------
 
-![Pinout Diagram](img/pinout.jpeg)
+![Pinout Diagram](img/pinout.jpg)
 
 
 Project Informations
