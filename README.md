@@ -55,7 +55,7 @@ debug_values = false (debug values)
 How-to video - In Spanish
 -------------------------
 
-[![BMS Seplos V3.0, Integración de datos en domótica](http://img.youtube.com/vi/mwh8dXmQ8fU/0.jpg)](http://www.youtube.com/watch?v=mwh8dXmQ8fU "BMS Seplos V3.0, Integración de datos en domótica")
+[![BMS Seplos V3.0, Integración de datos en domótica](http://img.youtube.com/vi/O0Yg4UXV4d0/0.jpg)](https://youtu.be/O0Yg4UXV4d0 "Home Assistant + JK BMS: Monitorea tu batería fácilmente")
 
 Pinout and Wiring
 -----------------
