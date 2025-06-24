@@ -60,9 +60,8 @@ How-to video - In Spanish
 Pinout and Wiring
 -----------------
 
-![Seplos RS485 Pinout](img/rs485pinout.jpeg)
+![Pinout Diagram](img/pinout.jpeg)
 
-![Seplos Wiring](img/seplos_wiring.jpeg)
 
 Project Informations
 --------------------
