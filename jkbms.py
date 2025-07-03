@@ -117,7 +117,7 @@ def main():
         {"name": "Cell 13 Voltage", "key_name": "cell_13_voltage", "address": 0x121A, "unit": "V", "type": "U_WORD", "multiplier": 0.001},
         {"name": "Cell 14 Voltage", "key_name": "cell_14_voltage", "address": 0x121C, "unit": "V", "type": "U_WORD", "multiplier": 0.001},
         {"name": "Cell 15 Voltage", "key_name": "cell_15_voltage", "address": 0x121E, "unit": "V", "type": "U_WORD", "multiplier": 0.001},
-        {"name": "MOS Temperature", "key_name": "cell_16_voltage", "address": 0x128A, "unit": "C", "type": "S_WORD", "multiplier": 0.1},
+        {"name": "MOS Temperature", "key_name": "mos_temperature", "address": 0x128A, "unit": "C", "type": "S_WORD", "multiplier": 0.1},
         {"name": "Battery Temperature 1", "key_name": "battery_temperature_1", "address": 0x129C, "unit": "º", "type": "S_WORD", "multiplier": 0.1},
         {"name": "Battery Temperature 2", "key_name": "battery_temperature_2", "address": 0x129E, "unit": "º", "type": "S_WORD", "multiplier": 0.1},
         {"name": "Balance Current", "key_name": "balance_current", "address": 0x12A4, "unit": "mA", "type": "S_WORD"},
